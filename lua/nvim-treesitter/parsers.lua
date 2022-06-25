@@ -752,18 +752,17 @@ list.gdscript = {
     files = { "src/parser.c", "src/scanner.cc" },
   },
   readme_name = "Godot (gdscript)",
-  maintainers = { "@Shatur95" },
+  maintainers = { "@PrestonKnopp" },
 }
 
 list.godot_resource = {
   install_info = {
     url = "https://github.com/PrestonKnopp/tree-sitter-godot-resource",
     files = { "src/parser.c", "src/scanner.c" },
-    requires_generate_from_grammar = true,
   },
   filetype = "gdresource",
   readme_name = "Godot Resources (gdresource)",
-  maintainers = { "@pierpo" },
+  maintainers = { "@PrestonKnopp" },
 }
 
 list.turtle = {
